@@ -18,7 +18,9 @@ For the execution of this project the technical analysis was divided into 5 stag
 To manage the data in cvs form a dataframe was created, this 2-dimensional data structure allows us to store and work with the data in a organized way.
 ![Dataframe_1](/Resources/Images/Dataframe_1.jpg "Dataframe_1")
 ### 2. Data cleansing
-Original data set contained incomplete or erroneous 
+Original data set contained incomplete or erroneous. To remediate that the dropna() and duplicated() functions were used. 
+As shown in the next image, the number of elements in each column varies between 17,546 elements in the "reading_score" column to 19,514 in must of the other columns, thus indicating that certain rows have incomplete data.
+![Missing_data_1](/Resources/Images/Missing_data_1.jpg "Missing_data_1")
 ### 3. Summary of the data
 ### 4. Establishing subset for specific analysis
 ### 5. Comparing subsets of data
