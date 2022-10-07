@@ -54,10 +54,12 @@ Specific rows and columns can be display, an statistical parameters can
 Using filters and subgroups comparison between different factor is facilitated. For this project it was shown that public school have a higher average budget than charter schools, with $872625.65 as the charter school average budget and $ 911195.56 for public schools.
 Another subset revealed that public schools average mathematics score is lower than that of charter schools.
 * Average budget per school type
+* 
 ![Budget_vs_schooltype](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Budget_vs_schooltype.png)
 
 * Average math score per school type
-![Schooltype_vs_mathscore](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Schooltype_vs_mathscore.png.png)
+* 
+![Schooltype_vs_mathscore](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Schooltype_vs_mathscore.png)
 
 ## Findings
 
