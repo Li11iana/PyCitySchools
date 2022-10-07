@@ -14,7 +14,7 @@ For the execution of this project the technical analysis was divided into 5 stag
 5. Comparing subsets of data
 
 ### 1. Data collection into a Dataframe
-To manage the data in cvs form a dataframe was created, this 2-dimensional data structure allows us to store and work with the data in a organized way.+
+To manage the data in cvs form a dataframe was created, this 2-dimensional data structure allows us to store and work with the data in a organized way.
 
 ![Dataframe_1](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Dataframe_1.png)
 
@@ -56,7 +56,7 @@ Another subset revealed that public schools average mathematics score is lower t
 * Average budget per school type
 ![Budget_vs_schooltype](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Budget_vs_schooltype.png)
 
-*Average math score per school type
+* Average math score per school type
 ![Schooltype_vs_mathscore](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Schooltype_vs_mathscore.png.png)
 
 ## Findings
