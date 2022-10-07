@@ -28,11 +28,11 @@ Using the methods *drop* rows with incomplete data were removed while using the 
 
 Finally the data within the "Grades" column was modified from text to numerical form:
 
--Original data type for the "Grades" column
+- Original data type for the "Grades" column.
 
 ![Missing_data_3](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_3.png)
 
--Modified data type for the "Grades" column
+- Modified data type for the "Grades" column.
 
 ![Missing_data_4](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_4.png)
 
@@ -53,12 +53,12 @@ Specific rows and columns can be display, an statistical parameters can
 ### 5. Comparing subsets of data
 Using filters and subgroups comparison between different factor is facilitated. For this project it was shown that public school have a higher average budget than charter schools, with $872625.65 as the charter school average budget and $ 911195.56 for public schools.
 Another subset revealed that public schools average mathematics score is lower than that of charter schools.
-* Average budget per school type
-* 
+- Average budget per school type
+
 ![Budget_vs_schooltype](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Budget_vs_schooltype.png)
 
-* Average math score per school type
-* 
+- Average math score per school type
+
 ![Schooltype_vs_mathscore](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Schooltype_vs_mathscore.png)
 
 ## Findings
