@@ -24,6 +24,7 @@ As shown in the next image, the number of elements in each column varies between
 ![Missing_data_1](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_1.png)
 
 Using the methods *drop* rows with incomplete data were removed while using the method *duplicated* reveal and allows remotion of repited rows. Results can be seen in the next image where number of elements was homogenous for all columns.
+
 ![Missing_data_2](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_2.png)
 
 Finally the data within the "Grades" column was modified from text to numerical form:
