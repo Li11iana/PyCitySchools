@@ -3,7 +3,7 @@
 Using Python Pandas the city school district will be able to review and compare the data from different schools. Condensing the data will allow us to show trends in budget and school performance necessary to address the educational status of the district and make strategic decisions based on the data insights and trends.
 
 ### Purpose
-The purpose of this report is to provide stakeholders with an overview of how each school is performing and to identify areas where improvements can be made. This information can be used to make data-driven decisions and to help each school improve its performance over time.
+The primary purpose of this report is to provide stakeholders with a detailed overview of each school's performance and to identify areas for improvement. The insights derived from this analysis are intended to drive data-driven decisions that will contribute to ongoing efforts to enhance overall school performance.
 
 
 ## Analysis
@@ -20,15 +20,15 @@ To manage the data in cvs form a dataframe was created, this 2-dimensional data 
 ![Dataframe_1](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Dataframe_1.png)
 
 ### 2. Data cleansing
-Original data set contained incomplete or erroneous information. 
-As shown in the next image, the number of elements in each column varies between 17,546 elements in the "reading_score" column to 19,514 in the other columns, thus indicating that certain rows have incomplete data. 
+The original data set contained incomplete or erroneous information. 
+As shown in the next image, the number of elements in each column varies between 17,546 elements in the **reading_score** column to 19,514 in the other columns, thus indicating that certain rows have incomplete data. 
 ![Missing_data_1](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_1.png)
 
 Using the methods *drop* rows with incomplete data were removed while using the method *duplicated* reveal and allow remotion of repeated rows. Results can be seen in the next image where the number of elements was homogenous for all columns.
 
 ![Missing_data_2](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_2.png)
 
-Finally the data within the "Grades" column was modified from text to numerical form:
+Finally, the data within the "Grades" column was modified from text to numerical form:
 
 - Original data type for the "Grades" column.
 
@@ -38,7 +38,7 @@ Finally the data within the "Grades" column was modified from text to numerical 
 
 ![Missing_data_4](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Missing_data_4.png)
 
-Additionally the average for the math_score was calculated, if needed the score of any other subject could have been calculated and filtered as desired. The minimum overall reading score was stored as a variable for further review.
+Additionally the average for the **math_score** was calculated, if needed the score of any other subject could have been calculated and filtered as desired. The minimum overall reading score was stored as a variable for further review.
 
 ### 3. Summary of the data
 Using the method *describe* we can obtain a summary of the dataset's descriptive statistics for numeric and object series. As shown in the image below we can obtain central tendency and distribution parameters for the numerical data. 
@@ -46,11 +46,11 @@ Using the method *describe* we can obtain a summary of the dataset's descriptive
 ![Summary_data](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Summary_data.png)
  
 ### 4. Establishing subset for specific analysis
-The method used in the section before (*describe*) can be used for specific subsets of the data, in order to evaluate if there are significant differences. In the image below the method *describe* is used to analyze the statistical parameters only for the rows where Grade = 9. Specific rows and columns can be displayed, and statistical parameters can be applied to these subsets.
+The method used in the section before (*describe*) can be used for specific subsets of the data, to evaluate if there are significant differences. In the image below the method *describe* is used to analyze the statistical parameters only for the rows where Grade = 9. Specific rows and columns can be displayed, and statistical parameters can be applied to these subsets.
 
 ![Summary_data_9grade](https://github.com/Li11iana/PyCitySchools/blob/main/Resources/Images/Summary_data_9grade.png)
 
-Specific rows and columns can be display, an statistical parameters can
+
 
 ### 5. Comparing subsets of data
 Using filters and subgroups comparison between different factors is facilitated. For this project it was shown that public schools have a higher average budget than charter schools, with $872625.65 as the charter school average budget and $ 911195.56 for public schools.
@@ -71,10 +71,10 @@ This exercise showed the importance of reviewing the data set for missing and du
 
 - Data description:
 
-Being able to preview the dataset provides actionable information, for example the "Grades" subset reveal that there are more students in 9th and 10th grade than 11th and 12th grade, this could potentially mean that an important number of students could be dropping out of school, depending on the school administration the reason behind that could be reviewed. Using .describe we can see that the average score on mathematics is 64.675733 while for reading the average score is 72.357865, both parameters should be improved, however you could argue the more resources to make mathematics more appealing to the students.
+Being able to preview the dataset provides actionable information, for example the "Grades" subset reveals that there are more students in 9th and 10th grade than 11th and 12th grade, this could potentially mean that an important number of students could be dropping out of school, depending on the school administration the reason behind that could be reviewed. Using. describe we can see that the average score on mathematics is 64.675733 while for reading the average score is 72.357865, both parameters should be improved, however you could argue the more resources to make mathematics more appealing to the students.
 
 - Dataset and subset comparison:
 
-Pandas provides great tools to filter, summarize and compare subsets of the data frame allowing you to review from a macro school district view or turn to a specific school and adapt to their precise needs and development opportunities. An additional analysis that could be of importance would be the quantity of students and budget assigned to the school, and compare that with the average budget for each school-type table since the last one revealed that public school have on average a higher budget than charter schools however this higher budget could be diluted in a bigger student population.
+Pandas provides great tools to filter, summarize and compare subsets of the data frame allowing you to review from a macro school district view or turn to a specific school and adapt to their precise needs and development opportunities. An additional analysis that could be of importance would be the quantity of students and budget assigned to the school and compare that with the average budget for each school-type table since the last one revealed that public school have on average a higher budget than charter schools however this higher budget could be diluted in a bigger student population.
 
 
